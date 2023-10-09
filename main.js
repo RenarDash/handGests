@@ -45,31 +45,31 @@ function sendResults(e,r) {
         document.getElementById("emotionName2").innerHTML=p2;
 
         if (p1=="perfect") {
-            document.getElementById("emoji1").innerHTML="&#128522;";
+            document.getElementById("emoji1").innerHTML="&#9996";
         }
         else if(p1=="peace"){
-            document.getElementById("emoji1").innerHTML="&#128546;";
+            document.getElementById("emoji1").innerHTML="&#128076";
         }
         else if(p1=="thumbs up"){
             document.getElementById("emoji1").innerHTML="&#128077";
         }
         else{
-            document.getElementById("emoji1").innerHTML="&#128512;"
+            document.getElementById("emoji1").innerHTML="&#129311"
         }
 
 
 
         if (p2=="perfect") {
-            document.getElementById("emoji2").innerHTML="&#128522;";
+            document.getElementById("emoji2").innerHTML="&#128076";
         }
         else if(p2=="peace"){
-            document.getElementById("emoji2").innerHTML="&#128546;";
+            document.getElementById("emoji2").innerHTML="&#9996";
         }
         else if(p2=="thumbs up"){
             document.getElementById("emoji2").innerHTML="&#128077";
         }
         else{
-            document.getElementById("emoji2").innerHTML="&#128512;"
+            document.getElementById("emoji2").innerHTML="&#129311"
         }
     }
 }
